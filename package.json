@@ -1,0 +1,12 @@
+{
+  "name": "chess-clock",
+  "version": "1.0.0",
+  "description": "Chess clock made with DOM.",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo test"
+  },
+  "author": "Malte Svensson",
+  "license": "ISC"
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial;
+    display: grid;
+    grid-template-areas: 
+    'one two three'
+    'four four four';
+    justify-content: center;
+    align-content: center;
+    gap: 5rem;
+
+    background-color: dimgrey;
+}
+
+.clock {
+    width: 28rem;
+    height: 18rem;
+    margin-inline: 1rem;
+    margin-top: 2rem;
+    font-size: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+
+    color: dimgrey;
+    background-color: grey;
+    box-shadow: 0 0.3rem 1.5rem 0 rgba(0, 0, 0, 0.35);
+}
+
+#left-clock {
+    grid-area: one;
+}
+
+#plus-one {
+    grid-area: two;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    border-radius: 0.5rem;
+
+    color: dimgrey;
+    background-color: lightgrey;
+}
+
+#plus-five {
+    grid-area: two;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+
+    color: dimgrey;
+    background-color: lightgrey;
+}
+
+#right-clock {
+    grid-area: three;
+}
+
+.buttons {
+    grid-area: four;
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 20rem;
+    padding-block: 2rem;
+    border-block: solid 0.2rem grey;
+}
+
+button {
+    width: -moz-fitcontent;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+
+    color: dimgrey;
+    background-color: lightgrey;
+}
+
+button:hover {
+    color: white;
+    background-color: orange;
+}
