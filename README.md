@@ -1,3 +1,3 @@
 # chess-clock
 
-Chess clock made with DOM.
+> Chess clock made with DOM.
