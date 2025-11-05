@@ -1,7 +1,4 @@
-// Tutorial videos:
-// https://www.youtube.com/watch?v=_a4XCarxwr8&ab_channel=WEBCIFAR
-// https://www.youtube.com/watch?v=PIiMSMz7KzM&ab_channel=dcode
-
+#!/usr/bin/env node
 let leftClock = document.getElementById('left-clock');
 let rightClock = document.getElementById('right-clock');
 var leftSeconds;
